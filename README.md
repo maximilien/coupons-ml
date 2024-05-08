@@ -23,13 +23,24 @@ Specific cleaning steps to resolved null data in "CarryAway" column, renaming mi
 
 By performing various slicing and query of the data would can perform analysis of the data on the column "coupon" and drawm some hytpothesis and conclusion that are logically sound.
 
+!['coupon' column historgram](images/coupon-column-bar-plot.png)
+
 
 ### Coupon type: "Bar"
 
-Investigates the coupon of type "Bar" to determine what factors drive acceptance of that coupon.
+### Visualization
+
+Let's graph the "Bar" accepted coupon with other dimenions: age, maritalStatus, passenger, and income
+
+!['coupon' column 'Bar' x 'age' column histogram](images/bar_coupon_accepted-age-histogram.png)
+!['coupon' column 'Bar' x 'maritalStatus' column histogram](images/bar_coupon_accepted-maritalStatus-histogram.png)
+!['coupon' column 'Bar' x 'passenger' column histogram](images/bar_coupon_accepted-passenger-histogram.png)
+!['coupon' column 'Bar' x 'income' column histogram](images/bar_coupon_accepted-income-histogram.png)
 
 
 #### Results and observations
+
+Investigating the coupon of type "Bar" to determine what factors drive acceptance of that coupon.
 
 We could arrive to four hypothesis
 
@@ -41,9 +52,18 @@ We could arrive to four hypothesis
 
 ### Coupon type: "Coffee House"
 
-Doing a similar analysis on coupon type: Coffee House we could also derive a set of conclusions.
+### Visualization
+
+Let's graph the "Coffee House" accepted coupon with other dimenions: age, maritalStatus, and passenger
+
+!['coupon' column 'Coffee House' x 'age' column histogram](images/coffee_house_coupon_accepted-age-histogram.png)
+!['coupon' column 'Coffee House' x 'maritalStatus' column histogram](images/coffee_house_coupon_accepted-maritalStatus-histogram.png)
+!['coupon' column 'Coffee House' x 'passenger'column  histogram](images/coffee_house_coupon_accepted-passenger-histogram.png)
+
 
 #### Results and observations
+
+Doing a similar analysis on coupon type: Coffee House we could also derive a set of conclusions.
 
 From the analysis we can infer the following:
 
